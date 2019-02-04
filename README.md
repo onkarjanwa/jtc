@@ -68,6 +68,20 @@ As soon the changes are merged, our system auto deploys them to a staging server
 
 The project team members do a daily standup to talks about the progress they have made yesterday, what they plan to work on today as well as any blocking issues. This makes sure that everyone is on the same page and any blocking issues are surfaced early on.
 
+#### Release Checklist
+- All tagged tickets should be marked as `CLOSED`.
+- Perform build and run-time checks at staging.
+- Perform configuration checks at production application in the pipeline.
+- Verify the milestone tag for pull requests at GitHub. Create a new milestone if required.
+- Verify the `Fix Version(s)` / `Affects Version(s)` field(s) for tickets at JIRA. Create a new release if required.
+- Initiate release phase via `git hf release start <release-tag-here>`
+- Bump the package version (Eg: `version` field in `package.json`).
+- Commit changes with meaningful commit message(s) as they will be directly in the commit history at `master`.
+- Finish the release phase via `git hf release finish <release-tag-here>`
+- Close the milestone at GitHub.
+- Complete at release at JIRA.
+- Submit release notes.
+
 ## Working at JTC
 ### Basic Etiquettes
 - Be on time. Respect other people time.
