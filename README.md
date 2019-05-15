@@ -82,6 +82,33 @@ The project team members do a daily standup to talks about the progress they hav
 - Complete at release at JIRA.
 - Submit release notes.
 
+#### Creating hotfixes
+
+- Create a hotfix under release in JIRA. We follow semver (https://semver.org/) so hotfix should generally update only PATCH number.
+- Tag tickets in JIRA that needs to go out with hotfix.
+- Create a hotfix branch. Please see hubflow to see what this command does.
+```
+git hf hotfix start VERSION_NUMBER
+```
+- Create feature branch for the ticket that needs to go out with hotfix. The feature branch should derive from hotfix branch instead of develop branch.
+```git checkout -b feature/TICKET_NUMBER/TICKET_DESCRIPTION hotfix/VERSION_NUMBER```
+- Raise PR. The base branch in PR should be `hotfix/VERSION_NUMBR` branch.
+- Once all tickets are merged, checkout hotfix branch
+
+```
+git checkout hotfix/VERSION_NUMBR
+```
+
+```
+git pull
+```
+
+- Update version number in `package.json` to VERSION_NUMBER
+- Release hotfix
+```
+git hf hotfix finish VERSION_NUMBER
+```
+
 ## Working at JTC
 ### Basic Etiquettes
 - Be on time. Respect other people time.
