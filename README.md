@@ -29,7 +29,9 @@ We often work on few products of our own as well. If you are looking to work wit
 ### Interview process
 Our interview process for an engineering role consists of two steps:
 
-- Build a web application using MEAN / MERN / JS based stack. Please see this [link](https://docs.google.com/document/d/1wX61rB-TpK6xckr-FBckDKkeH2qbwNlATSEDOX73QCY/edit?usp=sharing) on what to build.
+- Build an application:
+  - For full stack developer role, build a web application using MEAN / MERN stack. Please see this [link](https://docs.google.com/document/d/1wX61rB-TpK6xckr-FBckDKkeH2qbwNlATSEDOX73QCY/edit?usp=sharing) on what to build.
+  - For mobile engineer role, build a mobile application using React Native. Please see this [link](https://docs.google.com/document/d/1OIe1qWiQUeKZ8vYPeWe9FANiFmgpxvCHTN7Tws241U0/edit?usp=sharing) on what to build.
 - Once you have finished above task, set up a 1hr 15 mins interview call with us. You would need access to a computer and the internet during this call. Please use this [link](https://www.meetingbird.com/l/jjalan/interview) to schedule the meeting. In this call, we would:
   - Solve a technical problem for about 45 minutes
   - Go over the application and its source code of the application you built in step 1.
