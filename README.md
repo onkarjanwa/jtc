@@ -46,8 +46,7 @@ We use Gitflow branching model and Github for source control. For every task, bu
 ```
 git hf feature start SEQP-10/error_message_wrong_username_password
 ```
-
-We use Hubflow (a set of helper scripts) that does all plumbing work to enforce Gitflow branching model. Once all the changes are made and automated tests are written, changes are committed.
+We use Hubflow (a set of helper scripts) that does all plumbing work to enforce Gitflow branching model. Hubflow can be installed using following instructions ([for Mac](http://macappstore.org/hubflow/)/[for Linux](https://github.com/tophatmonocle/HubFlow/wiki/Linux)). Once all the changes are made and automated tests are written, changes are committed.
 
 Before a commit can be made locally, our bot ensure that changes follow coding standards and run all automated tests to ensure the changes do not break existing scenarios. In case it breaks, our system does not allow the commit.
 
