@@ -119,8 +119,8 @@ git hf hotfix finish VERSION_NUMBER
 - Make sure your profile accurately describes what you do on Slack, Github, LinkedIn, Angel.co including a profile picture. Prospective clients and team members often research about us on the internet.
 
 ### Perks
- - Competitive salary, paid the first week of every month.
- - 2 paid leaves every month.
+ - Competitive salary, paid by 5th of every month.
+ - 1.5 paid leaves every month.
  - Free beverages, if you are working from one of our offices.
  - Macbooks, if you are working from one of our offices.
  - An annual offsite for all of us to get together.
